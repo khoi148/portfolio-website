@@ -5,7 +5,7 @@ import CIRCUS from "assets/img/portfolio/currency-converter.png";
 
 export default function PortfolioSection() {
   return (
-    <section className="page-section portfolio" id="portfolio">
+    <section className="page-section portfolio bg-primary" id="portfolio">
       <div className="container">
         {/* <!-- Portfolio Section Heading--> */}
         <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
@@ -114,20 +114,35 @@ export default function PortfolioSection() {
                       alt=""
                     />
                     {/* <!-- Portfolio Modal - Text--> */}
-                    <p className="mb-5">
-                      A website that utilizes an API from
+                    <p className="mb-0">
+                      A website that utilizes an API from{" "}
                       <a href="https://www.themoviedb.org/documentation/api">
                         TMDB
                       </a>
-                      , a website that provide historical and current movie
-                      data. Users can search for descriptions and release dates
-                      about from favorite movies, upcoming films, and sort
-                      search results by popularity or rating. A passion project
-                      born from my love of movies, it was built using React for
-                      rendering and handling state, bootstrap for styling the
-                      HTML page, and fontawesome for providing some extra word
-                      aesthetics. Try it out and search for your favorite movie!
+                      , an 3rd party site that provides historical and
+                      up-to-date info on the latests movies and films. Users can
+                      search for descriptions and release dates from their
+                      favorite films, upcoming releases, and sort search results
+                      by popularity or rating. A passion project born from my
+                      love of movies, it was built using React for rendering and
+                      handling state, bootstrap for styling the HTML page, and
+                      fontawesome for providing some extra word art aesthetics.
+                      Try it out and search for your favorite movie!
                     </p>
+                    <div className="d-flex justify-content-center my-4">
+                      <a
+                        className="btn btn-outline-secondary btn-social mx-1"
+                        href="https://github.com/khoi148/imdb-clone"
+                      >
+                        <i className="fab fa-fw fa-github"></i>
+                      </a>
+                      <a
+                        className="btn btn-outline-secondary btn-social mx-1"
+                        href="https://imdb-clone-coderschool.netlify.com"
+                      >
+                        <i class="far fa-window-restore"></i>
+                      </a>
+                    </div>
                     <button
                       className="btn btn-primary"
                       href="#"
@@ -182,7 +197,7 @@ export default function PortfolioSection() {
                     {/* <!-- Portfolio Modal - Image--> */}
                     <img className="img-fluid rounded mb-5" src={CAKE} alt="" />
                     {/* <!-- Portfolio Modal - Text--> */}
-                    <p className="mb-5">
+                    <p className="mb-0">
                       A website that tells users the weather forecast for the
                       next 5 days. It utilizes an API provided by{" "}
                       <a href="https://openweathermap.org">Openweather.org</a>,
@@ -191,6 +206,20 @@ export default function PortfolioSection() {
                       encapsulation of code into differentComponents, for a
                       clean and neat weather app.
                     </p>
+                    <div className="d-flex justify-content-center my-4">
+                      <a
+                        className="btn btn-outline-secondary btn-social mx-1"
+                        href="https://github.com/khoi148/weather-app"
+                      >
+                        <i className="fab fa-fw fa-github"></i>
+                      </a>
+                      <a
+                        className="btn btn-outline-secondary btn-social mx-1"
+                        href="https://weather-app-coderschool1.netlify.com"
+                      >
+                        <i class="far fa-window-restore"></i>
+                      </a>
+                    </div>
                     <button
                       className="btn btn-primary"
                       href="#"
@@ -249,12 +278,26 @@ export default function PortfolioSection() {
                       alt=""
                     />
                     {/* <!-- Portfolio Modal - Text--> */}
-                    <p className="mb-5">
+                    <p className="mb-0">
                       A useful website for converting currencies. Built with
                       vanilla HTML/CSS/Javascript, it can convert 5 different
                       currencies amongst each other. One of my first and
                       favorite projects!
                     </p>
+                    <div className="d-flex justify-content-center my-4">
+                      <a
+                        className="btn btn-outline-secondary btn-social mx-1"
+                        href="https://github.com/khoi148/CurrencyConverter-Coderschool"
+                      >
+                        <i className="fab fa-fw fa-github"></i>
+                      </a>
+                      <a
+                        className="btn btn-outline-secondary btn-social mx-1"
+                        href="https://currency-calculator-coderschool.netlify.com"
+                      >
+                        <i class="far fa-window-restore"></i>
+                      </a>
+                    </div>
                     <button
                       className="btn btn-primary"
                       href="#"
