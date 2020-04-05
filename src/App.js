@@ -5,13 +5,6 @@ import "./App.css";
 function App() {
   return (
     <div id="page-top">
-      {/* <h1 className="bg-warning header-font">
-        This is a header, with Georgia Font, a Serif Font
-      </h1>
-      <p className="">This is Verdana, sans-serif and non-bolded text</p>
-      <b>This is Verdana, bolded text</b> */}
-
-      {/* <!-- Navigation--> */}
       <nav
         className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
         id="mainNav"
@@ -307,36 +300,43 @@ function App() {
           <div className="row">
             {/* <!-- Footer Location--> */}
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <h4 className="text-uppercase mb-4">Location</h4>
-              <p className="lead mb-0">
-                2215 John Daniel Drive
-                <br />
-                Clark, MO 65243
-              </p>
+              <div className="text-uppercase mb-4">
+                <h4 className="text-left">Location</h4>
+                <div className="separator-1"></div>
+              </div>
+              <p className="lead mb-0 text-left">District 2, HCMC, Vietnam</p>
             </div>
             {/* <!-- Footer Social Icons--> */}
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <h4 className="text-uppercase mb-4">Around the Web</h4>
-              <a className="btn btn-outline-light btn-social mx-1" href="#">
-                <i className="fab fa-fw fa-facebook-f"></i>
-              </a>
-              <a className="btn btn-outline-light btn-social mx-1" href="#">
-                <i className="fab fa-fw fa-twitter"></i>
-              </a>
-              <a className="btn btn-outline-light btn-social mx-1" href="#">
-                <i className="fab fa-fw fa-linkedin-in"></i>
-              </a>
-              <a className="btn btn-outline-light btn-social mx-1" href="#">
-                <i className="fab fa-fw fa-dribbble"></i>
-              </a>
+              <div className="text-uppercase mb-4">
+                <h4 className="text-left">Around the Web</h4>
+                <div className="separator-1"></div>
+              </div>
+
+              <div className="text-left">
+                <a
+                  className="btn btn-outline-light btn-social mx-1"
+                  href="https://www.linkedin.com/in/khoi-phan-662511a6/"
+                >
+                  <i className="fab fa-fw fa-linkedin-in"></i>
+                </a>
+                <a
+                  className="btn btn-outline-light btn-social mx-1"
+                  href="https://github.com/khoi148/portfolio-website"
+                >
+                  <i className="fab fa-fw fa-github"></i>
+                </a>
+              </div>
             </div>
             {/* <!-- Footer About Text--> */}
             <div className="col-lg-4">
-              <h4 className="text-uppercase mb-4">About Freelancer</h4>
-              <p className="lead mb-0">
-                Freelance is a free to use, MIT licensed Bootstrap theme created
-                by <a href="http://startbootstrap.com">Start Bootstrap</a>.
-              </p>
+              <div className="text-uppercase mb-4">
+                <h4 className="text-left">Contact</h4>
+                <div className="separator-1"></div>
+              </div>
+              <p className="lead mb-0 text-left">khoiminhphan@yahoo.com</p>
+              <br></br>
+              <p className="lead mb-0 text-left">+84 397 241 763</p>
             </div>
           </div>
         </div>
@@ -347,15 +347,7 @@ function App() {
           <small>Copyright © Your Website 2020</small>
         </div>
       </section>
-      {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)--> */}
-      <div className="scroll-to-top d-lg-none position-fixed">
-        <a
-          className="js-scroll-trigger d-block text-center text-white rounded"
-          href="#page-top"
-        >
-          <i className="fa fa-chevron-up"></i>
-        </a>
-      </div>
+
       {/* <!-- Portfolio Modals--><!-- Portfolio Modal 1--> */}
       <div
         className="portfolio-modal modal fade"
