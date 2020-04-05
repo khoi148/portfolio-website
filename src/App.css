@@ -1,7 +1,65 @@
-* {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+/* nav section, no media queries */
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
 }
 
-.header-font {
-  font-family: Georgia, "Times New Roman", Times, serif;
+#mainNav .navbar-brand {
+  color: #fff;
+}
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #fff;
+  background: #00ccff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+  background: #00ccff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #fff;
+  background: #00ccff;
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+/* background section  */
+.bg-primary {
+  background-color: #00ccff !important;
+}
+.bg-secondary {
+  background: #00ccff;
+}
+
+.bg-secondary-scrolled {
+  animation: nav-transition 1.5s linear;
+  animation-fill-mode: forwards;
+  background: #003d4d !important;
+}
+
+@keyframes nav-transition {
+  from {
+    background: #00ccff;
+  }
+  to {
+    background: #003d4d;
+  }
+}
+
+/* Portfolio section */
+.text-secondary {
+  color: #003d4d !important;
 }

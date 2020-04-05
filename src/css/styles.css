@@ -184,8 +184,11 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #fff;
   text-decoration: underline;
+}
+footer a:hover {
+  opacity: 0.5;
 }
 
 a:not([href]) {
@@ -3180,7 +3183,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #117964;
+  color: #fff;
   text-decoration: underline;
 }
 .btn-link:focus,
@@ -3463,7 +3466,7 @@ input[type="button"].btn-block {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #1abc9c;
+  background-color: #00ccff;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -5549,12 +5552,12 @@ a.badge-dark.focus {
 }
 
 .list-group-item-primary {
-  color: #0e6251;
+  color: #fff;
   background-color: #bfece3;
 }
 .list-group-item-primary.list-group-item-action:hover,
 .list-group-item-primary.list-group-item-action:focus {
-  color: #0e6251;
+  color: #fff;
   background-color: #abe6da;
 }
 .list-group-item-primary.list-group-item-action.active {
@@ -6477,19 +6480,11 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #1abc9c !important;
-}
-
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
-}
-
-.bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #fff !important;
 }
 
 a.bg-secondary:hover,
@@ -10177,10 +10172,6 @@ a.text-primary:focus {
   color: #117964 !important;
 }
 
-.text-secondary {
-  color: #2c3e50 !important;
-}
-
 a.text-secondary:hover,
 a.text-secondary:focus {
   color: #11181f !important;
@@ -10404,9 +10395,9 @@ a.text-dark:focus {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #003d4d;
   border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  border-color: #003d4d !important;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10415,7 +10406,7 @@ a.text-dark:focus {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50 !important;
+  color: #003d4d !important;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -10453,38 +10444,6 @@ a.text-dark:focus {
   line-height: 3.1rem;
 }
 
-#mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-}
-#mainNav .navbar-brand {
-  color: #fff;
-}
-#mainNav .navbar-nav {
-  margin-top: 1rem;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link:active,
-#mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
-}
-#mainNav .navbar-toggler {
-  font-size: 80%;
-  padding: 0.8rem;
-}
-
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -10500,13 +10459,13 @@ a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #00ccff !important;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #00ccff;
   }
 
   #mainNav.navbar-shrink {

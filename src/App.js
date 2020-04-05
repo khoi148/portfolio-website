@@ -1,17 +1,18 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import TypeWriterComponent from "./components/TypeWriterComponent.js";
 
 function App() {
   return (
     <div id="page-top">
       <nav
-        className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+        className="navbar navbar-expand-lg py-0 bg-secondary text-uppercase fixed-top"
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            Start Bootstrap
+          <a className="navbar-brand" href="#page-top">
+            Khoi Phan
           </a>
           <button
             className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -28,7 +29,7 @@ function App() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item mx-0 mx-lg-1">
                 <a
-                  className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                  className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
                   href="#portfolio"
                 >
                   Portfolio
@@ -36,7 +37,7 @@ function App() {
               </li>
               <li className="nav-item mx-0 mx-lg-1">
                 <a
-                  className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                  className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
                   href="#about"
                 >
                   About
@@ -44,7 +45,7 @@ function App() {
               </li>
               <li className="nav-item mx-0 mx-lg-1">
                 <a
-                  className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                  className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
                   href="#contact"
                 >
                   Contact
@@ -71,14 +72,13 @@ function App() {
           <div className="divider-custom divider-light">
             <div className="divider-custom-line"></div>
             <div className="divider-custom-icon">
-              <i className="fas fa-star"></i>
+              <i className="fas fa-power-off"></i>
             </div>
             <div className="divider-custom-line"></div>
           </div>
           {/* <!-- Masthead Subheading--> */}
-          <p className="masthead-subheading font-weight-light mb-0">
-            Graphic Artist - Web Designer - Illustrator
-          </p>
+
+          <TypeWriterComponent />
         </div>
       </header>
       {/* <!-- Portfolio Section--> */}
@@ -92,7 +92,8 @@ function App() {
           <div className="divider-custom">
             <div className="divider-custom-line"></div>
             <div className="divider-custom-icon">
-              <i className="fas fa-star"></i>
+              <i className="fas fa-desktop mr-2"></i>
+              <i className="far fa-keyboard"></i>
             </div>
             <div className="divider-custom-line"></div>
           </div>
@@ -213,7 +214,7 @@ function App() {
           <div className="divider-custom">
             <div className="divider-custom-line"></div>
             <div className="divider-custom-icon">
-              <i className="fas fa-star"></i>
+              <i className="fas fa-envelope"></i>
             </div>
             <div className="divider-custom-line"></div>
           </div>
@@ -304,7 +305,9 @@ function App() {
                 <h4 className="text-left">Location</h4>
                 <div className="separator-1"></div>
               </div>
-              <p className="lead mb-0 text-left">District 2, HCMC, Vietnam</p>
+              <div className="text-left">
+                <a className="lead mb-0 ">District 2, HCMC, Vietnam</a>
+              </div>
             </div>
             {/* <!-- Footer Social Icons--> */}
             <div className="col-lg-4 mb-5 mb-lg-0">
@@ -329,15 +332,21 @@ function App() {
               </div>
             </div>
             {/* <!-- Footer About Text--> */}
-            <div className="col-lg-4">
+            <footer className="col-lg-4">
               <div className="text-uppercase mb-4">
                 <h4 className="text-left">Contact</h4>
                 <div className="separator-1"></div>
               </div>
-              <p className="lead mb-0 text-left">khoiminhphan@yahoo.com</p>
+              <a className="d-flex align-items-center">
+                <i className="fa fa-phone mr-2"></i>
+                <p className="lead mb-0 text-left">khoiminhphan@yahoo.com</p>
+              </a>
               <br></br>
-              <p className="lead mb-0 text-left">+84 397 241 763</p>
-            </div>
+              <a className="d-flex align-items-center">
+                <i className="fa fa-envelope mr-2"></i>
+                <p className="lead mb-0 text-left">+84 397 241 763</p>
+              </a>
+            </footer>
           </div>
         </div>
       </footer>
@@ -348,7 +357,7 @@ function App() {
         </div>
       </section>
 
-      {/* <!-- Portfolio Modals--><!-- Portfolio Modal 1--> */}
+      {/* <!-- Portfolio Modal 1--> */}
       <div
         className="portfolio-modal modal fade"
         id="portfolioModal1"
