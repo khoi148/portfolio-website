@@ -26,14 +26,6 @@ export default function Navbar() {
             <li className="nav-item mx-0 mx-lg-1">
               <a
                 className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
-                href="#portfolio"
-              >
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item mx-0 mx-lg-1">
-              <a
-                className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
                 href="#about"
               >
                 About
@@ -42,9 +34,26 @@ export default function Navbar() {
             <li className="nav-item mx-0 mx-lg-1">
               <a
                 className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
-                href="#contact"
+                href="#portfolio"
               >
-                Contact
+                Portfolio
+              </a>
+            </li>
+
+            <li className="nav-item mx-0 mx-lg-1">
+              <a
+                className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
+                href="#skills"
+              >
+                Skills
+              </a>
+            </li>
+            <li className="nav-item mx-0 mx-lg-1">
+              <a
+                className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
+                href="#experience"
+              >
+                Experience
               </a>
             </li>
           </ul>
