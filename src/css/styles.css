@@ -453,13 +453,6 @@ h6,
   line-height: 1.2;
 }
 
-.separator-1 {
-  background-color: yellow;
-  color: black;
-  height: 2px;
-  width: 60px;
-}
-
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;

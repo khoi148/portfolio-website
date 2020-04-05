@@ -73,3 +73,10 @@ a:hover {
 .text-secondary {
   color: #003d4d !important;
 }
+
+.separator-1 {
+  background-color: yellow;
+  color: black;
+  height: 2px;
+  width: 60px;
+}
