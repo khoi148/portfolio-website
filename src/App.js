@@ -1,86 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import TypeWriterComponent from "./components/TypeWriterComponent.js";
+import Navbar from "./components/Navbar.js";
+import Masthead from "./components/Masthead.js";
 
 function App() {
   return (
     <div id="page-top">
-      <nav
-        className="navbar navbar-expand-lg py-0 bg-secondary text-uppercase fixed-top"
-        id="mainNav"
-      >
-        <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            Khoi Phan
-          </a>
-          <button
-            className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            Menu <i className="fas fa-bars"></i>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item mx-0 mx-lg-1">
-                <a
-                  className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
-                  href="#portfolio"
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item mx-0 mx-lg-1">
-                <a
-                  className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
-                  href="#about"
-                >
-                  About
-                </a>
-              </li>
-              <li className="nav-item mx-0 mx-lg-1">
-                <a
-                  className="nav-link py-3 px-0 px-lg-3 js-scroll-trigger"
-                  href="#contact"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      {/* <!-- Masthead--> */}
-      <header className="masthead bg-primary text-white text-center">
-        <div className="container d-flex align-items-center flex-column">
-          {/* <!-- Masthead Avatar Image--> */}
-          <img
-            className="masthead-avatar mb-5"
-            src={require("./assets/img/avataaars.svg")}
-            alt=""
-          />
-          {/* <!-- Masthead Heading--> */}
-          <h1 className="masthead-heading text-uppercase mb-0">
-            Start Bootstrap
-          </h1>
-          {/* <!-- Icon Divider--> */}
-          <div className="divider-custom divider-light">
-            <div className="divider-custom-line"></div>
-            <div className="divider-custom-icon">
-              <i className="fas fa-power-off"></i>
-            </div>
-            <div className="divider-custom-line"></div>
-          </div>
-          {/* <!-- Masthead Subheading--> */}
+      <Navbar />
 
-          <TypeWriterComponent />
-        </div>
-      </header>
+      {/* <!-- Masthead--> */}
+      <Masthead />
+
       {/* <!-- Portfolio Section--> */}
       <section className="page-section portfolio" id="portfolio">
         <div className="container">
@@ -312,7 +242,7 @@ function App() {
             {/* <!-- Footer Social Icons--> */}
             <div className="col-lg-4 mb-5 mb-lg-0">
               <div className="text-uppercase mb-4">
-                <h4 className="text-left">Around the Web</h4>
+                <h4 className="text-left">Fine me on the web</h4>
                 <div className="separator-1"></div>
               </div>
 
