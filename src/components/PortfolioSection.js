@@ -140,7 +140,7 @@ export default function PortfolioSection() {
                         className="btn btn-outline-secondary btn-social mx-1"
                         href="https://imdb-clone-coderschool.netlify.com"
                       >
-                        <i class="far fa-window-restore"></i>
+                        <i className="far fa-window-restore"></i>
                       </a>
                     </div>
                     <button
@@ -217,7 +217,7 @@ export default function PortfolioSection() {
                         className="btn btn-outline-secondary btn-social mx-1"
                         href="https://weather-app-coderschool1.netlify.com"
                       >
-                        <i class="far fa-window-restore"></i>
+                        <i className="far fa-window-restore"></i>
                       </a>
                     </div>
                     <button
@@ -295,7 +295,7 @@ export default function PortfolioSection() {
                         className="btn btn-outline-secondary btn-social mx-1"
                         href="https://currency-calculator-coderschool.netlify.com"
                       >
-                        <i class="far fa-window-restore"></i>
+                        <i className="far fa-window-restore"></i>
                       </a>
                     </div>
                     <button

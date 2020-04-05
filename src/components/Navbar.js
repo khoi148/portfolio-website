@@ -11,7 +11,7 @@ export default function Navbar() {
           Khoi-Portfolio
         </a>
         <button
-          className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"

@@ -9,7 +9,6 @@ export default function ExperienceSection() {
   const PRIMARY = "#00c3ff";
   const SECONDARY = "#003d4d";
   const WHITE = "#fff";
-  const ICON_STYLE1 = { fontSize: "22px", paddingRight: "2px" };
   return (
     <section className="page-section bg-primary" id="experience">
       <div className="container">
@@ -34,7 +33,7 @@ export default function ExperienceSection() {
             iconStyle={{ background: "red", color: "#fff" }}
             icon={
               <i
-                class="fas fa-school"
+                className="fas fa-school"
                 style={{ fontSize: "22px", paddingRight: "2px" }}
               ></i>
             }
@@ -59,7 +58,7 @@ export default function ExperienceSection() {
             iconStyle={{ background: "black", color: "#fff" }}
             icon={
               <i
-                class="fas fa-user-tie"
+                className="fas fa-user-tie"
                 style={{ fontSize: "32px", paddingRight: "2px" }}
               ></i>
             }
@@ -81,7 +80,7 @@ export default function ExperienceSection() {
             iconStyle={{ background: "#e6e600", color: SECONDARY }}
             icon={
               <i
-                class="fas fa-graduation-cap"
+                className="fas fa-graduation-cap"
                 style={{ fontSize: "24px", paddingRight: "5px" }}
               ></i>
             }
