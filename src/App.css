@@ -1,3 +1,13 @@
+/* Links on the page */
+a {
+  color: #00c3ff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #003d4d;
+  text-decoration: underline;
+}
 /* nav section, no media queries */
 #mainNav {
   padding-top: 1rem;
