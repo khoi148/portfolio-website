@@ -12,9 +12,7 @@ export default function FooterSection() {
               <div className="separator-1"></div>
             </div>
             <div className="text-left">
-              <a href="!#" className="lead mb-0 ">
-                District 2, HCMC, Vietnam
-              </a>
+              <a className="lead mb-0 ">District 2, HCMC, Vietnam</a>
             </div>
           </div>
           {/* <!-- Footer Social Icons--> */}
@@ -45,12 +43,12 @@ export default function FooterSection() {
               <h4 className="text-left">Contact</h4>
               <div className="separator-1"></div>
             </div>
-            <a href="!#" className="d-flex align-items-center">
+            <a className="d-flex align-items-center">
               <i className="fa fa-phone mr-2"></i>
               <p className="lead mb-0 text-left">khoiminhphan@yahoo.com</p>
             </a>
             <br></br>
-            <a href="!#" className="d-flex align-items-center">
+            <a className="d-flex align-items-center">
               <i className="fa fa-envelope mr-2"></i>
               <p className="lead mb-0 text-left">+84 397 241 763</p>
             </a>
