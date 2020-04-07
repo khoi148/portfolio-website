@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import JAVA from "assets/img/java-logo.png";
 import JAVASCRIPT from "assets/img/javascript-logo.png";
 import REACT from "assets/img/logo.svg";

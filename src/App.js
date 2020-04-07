@@ -7,7 +7,7 @@ import AboutSection from "components/AboutSection.js";
 import FooterSection from "components/FooterSection.js";
 import ExperienceSection from "components/ExperienceSection.js";
 import SkillsSection from "components/SkillsSection.js";
-
+import ContactSection from "components/ContactSection.js";
 function App() {
   return (
     <div id="page-top">
@@ -25,6 +25,10 @@ function App() {
 
       {/* Experience Section */}
       <ExperienceSection />
+
+      {/* Contact me section  */}
+      {/* <ContactSection /> */}
+
       {/* <!-- Footer--> */}
       <FooterSection />
 

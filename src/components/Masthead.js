@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import TypeWriterComponent from "./TypeWriterComponent.js";
 import avatar from "assets/img/avataaars.svg";
 

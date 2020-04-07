@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PROFILE from "assets/img/profile-pic.jpg";
 import RESUME from "assets/img/Resume-v1.9.pdf";
 
@@ -25,7 +25,7 @@ export default function AboutSection() {
             <img
               className="img-fluid rounded-circle border border-secondary"
               src={PROFILE}
-              alt=">Profile Picture"
+              alt=">Profile"
               style={{ height: "400px", width: "400px" }}
             />
           </div>

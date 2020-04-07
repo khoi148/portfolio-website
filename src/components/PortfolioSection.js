@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import CABIN from "assets/img/portfolio/imdb-clone.png";
 import CAKE from "assets/img/portfolio/weather-app.png";
 import CIRCUS from "assets/img/portfolio/currency-converter.png";
