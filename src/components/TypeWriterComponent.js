@@ -5,7 +5,7 @@ export default function TypeWriterComponent() {
   return (
     <div style={{ fontSize: "34px" }}>
       <ReactTypingEffect
-        text="FULL-STACK WEB DEVELOPER FROM VIETNAM "
+        text="FULL-STACK SOFTWARE DEVELOPER "
         typingDelay={1200}
         eraseDelay={1600}
         speed={150}

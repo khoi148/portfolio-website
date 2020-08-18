@@ -32,19 +32,16 @@ export default function AboutSection() {
           <div className="col-lg-6">
             <h2 className="text-secondary">Khoi Phan</h2>
             <h4 className="text-secondary mb-3">
-              <i>Full-stack Web Engineer in Vietnam</i>
+              <i>Full-Stack Software Developer</i>
             </h4>
             <p className="lead p-3">
-              Experienced Web Developer with a demonstrated history of working
-              in the software industry. Skilled in Web development (React &
-              JQuery Frameworks) and Enterprise applications (JavaEE & Spring
-              Apps). Accustomed to workflows that include: agile methodologies,
-              test driven design, continuous integration, and working with Unix
-              systems and SQL databases. Strong engineering professional who
-              gradudated from the University of California, San Diego with a
-              B.A. in International Business. My favourite stack: ReactJS,
-              ReactNative, Java Spring, all with continuous integration with
-              Github.
+              Software Developer with a demonstrated history of working in web
+              development, UI design, backend database design, and IT
+              Consulting. Accustomed to workflows that include: agile
+              methodologies, test driven design, continuous integration, and
+              working with Unix systems and SQL databases. Strong engineering
+              professional who gradudated from the University of California, San
+              Diego with a B.A. in International Business.
             </p>
             <div className="p-3">
               <a
